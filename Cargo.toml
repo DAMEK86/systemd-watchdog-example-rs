@@ -1,0 +1,11 @@
+[package]
+name = "systemd-watchdog-example-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andreas Rehn"]
+description = "example systemd watchdog application"
+license = "MIT"
+repository = "https://github.com/damek86/systemd-watchdog-example-rs"
+
+[dependencies]
+sd-notify = "0.4.1"
